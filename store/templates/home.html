@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% block title %}
+            <title>Home Page</title>
+        {% endblock title %}
+    </head>
+    <body>
+        {% block content %}
+            <h1>Home</h1>
+            <!--
+            <section class="featured_showS">
+                <h2>Featured Anime</h2>
+                <div class="featured_grid">
+                    <article class="featured_show_item">
+                        <a href="{% url 'show_detail' show.id %}"><img src="" alt="Show 1"></a>
+                        <h3>{{ show.name }}</h3>
+                    </article>
+                    <article class="featured_show_item">
+                        <a href="{% url 'show_detail' show.id %}"><img src="" alt="Show 2"></a>
+                        <h3>{{ show.name }}</h3>
+                    </article>
+                    <article class="featured_show_item">
+                        <a href="{% url 'show_detail' show.id %}"><img src="" alt="Show 3"></a>
+                        <h3>{{ show.name }}</h3>
+                    </diarticlev>
+                    <article class="featured_show_item">
+                        <a href="{% url 'show_detail' show.id %}"><img src="" alt="Show 4"></a>
+                        <h3>{{ show.name }}</h3>
+                    </article>
+                </div>
+            </section>
+            -->
+            
+            <section class="featured_show">
+                <h2>Feature Shows</h2>
+                <div class="featured_grid">
+                    {% if show.items.all %}
+                        {% for item in Show.items.all %}
+                            {% if item.featured == True %}
+                                <article class="featured_show_item">
+                                    <a href="{% url 'show_detail' %}"><img src="{% url 'show.image' %}"></a>
+                                    <h3>{{ show.name }}</h3>
+                                </article>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </section>
+           
+
+            <section class="show_catalog">
+                <h2>Discover More</h2>
+                <div class="show_list">
+                    <ul> 
+                        {% for show in Show %}
+                            <li>
+                                <div class="show_catalog_item">
+                                    <a href="{% url 'show_detail' show.id %}">{{ show.name }}</a>
+                                    <p>Number of Seasons: {{ show.num_of_seasons }}</p>
+                                    <p>Number of Episodes: {{ show.num_of_episodes }}</p>
+                                    <p>Tokens: {{ show.price }}</p>
+                                </div>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </section>
+        {% endblock content %}
+    </body>
+</html>

@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="description" content="{% block metadescription %}{% endblock %}"> 
+        <title>
+            {% block title %}
+                <h1>{{ show.title }}</h1>
+            {% endblock %}
+        </title> 
+    </head> 
+    <body> 
+        {% include 'navbar.html' %}
+
+        {% block content %}
+        <div class="">
+            <ul>
+                {% for show in products %}
+                    <li><a href="{% url 'show_detail' show.id %}">{{ show.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>        
+        {% endblock %} 
+
+        {% block javascript %}
+            <script src="{% static 'static/js/base.js' %}"></script>
+        {% endblock javascript %}
+
+        {% include 'footer.html' %} 
+    </body> 
+</html>

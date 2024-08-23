@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="description" content="{% block metadescription %}{% endblock %}"> 
+        <title>
+            {% block title %}
+                <h1>{{ show.title }}</h1>
+            {% endblock %}
+        </title> 
+    </head> 
+    <body> 
+        {% include 'navbar.html' %}
+
+        {% block content %}
+        <div class="show-entry">
+            <img src="{{ show.image.url }}" alt="{{ show.title }}" class="show_image">
+            <p>Studio: {{ show.studio }}</p>            
+            <p>{{ show.description }}</p>
+            <p>Number of Seasons: {{ show.num_of_seasons }}</p>
+            <p>Number of Episodes: {{ show.num_of_episodes }}</p>
+            <p>Tokens: {{ show.price }}</p>    
+        </div>        
+        {% endblock %} 
+
+        {% block javascript %}
+            <script src="{% static 'static/js/base.js' %}"></script>
+        {% endblock javascript %}
+
+        {% include 'footer.html' %} 
+    </body> 
+</html>

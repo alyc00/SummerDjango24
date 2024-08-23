@@ -1,0 +1,178 @@
+[
+    {
+        "title": "Howl's Moving Castle",
+        "id": 01,
+        "studio": "Studio Ghibli",
+        "description": "That jumbled piece of architecture, that cacophony of hissing steam and creaking joints, with smoke billowing from it as it moves on its own... That castle is home to the magnificent wizard Howl, infamous for both his magical prowess and for being a womanizer—or so the rumor goes in Sophie Hatter's small town. Sophie, as the plain daughter of a hatmaker, does not expect much from her future and is content with working hard in the shop. However, Sophie's simple life takes a turn for the exciting when she is ensnared in a disturbing situation, and the mysterious wizard appears to rescue her. Unfortunately, this encounter, brief as it may be, spurs the vain and vengeful Witch of the Waste—in a fit of jealousy caused by a past discord with Howl—to put a curse on the maiden, turning her into an old woman. In an endeavor to return to normal, Sophie must accompany Howl and a myriad of eccentric companions—ranging from a powerful fire demon to a hopping scarecrow—in his living castle, on a dangerous adventure as a raging war tears their kingdom apart.",
+        "num_of_episodes": 1,
+        "num_of_seasons": 1,
+        "image": "static/media/",
+        "type": 4,
+        "featured": true
+    },
+    {
+        "title": "Grave of the Fireflies",
+        "id": 02,
+        "studio": "Studio Ghibli",
+        "description": "As World War II reaches its conclusion in 1945, Japan faces widespread destruction in the form of American bombings, devastating city after city. Hotaru no Haka, also known as Grave of the Fireflies, is the story of Seita and his sister Setsuko, two Japanese children whose lives are ravaged by the brutal war. They have lost their mother, their father, their home, and the prospect of a bright future—all tragic consequences of the war. Now orphaned and homeless, Seita and Setsuko have no choice but to drift across the countryside, beset by starvation and disease. Met with the apathy of adults along the way, they find that desperate circumstances can turn even the kindest of people cruel yet their youthful hope shines brightly in the face of unrelenting hardship, preventing the siblings from swiftly succumbing to an inevitable fate",
+        "num_of_episodes": 1,
+        "num_of_seasons": 1,
+        "image": "static/media/",
+        "type": 4,
+        "featured": false 
+    },
+    {
+        "title": "The Saga of Tanya the Evil",
+        "id": 03,
+        "studio": "Nut",
+        "description": "Tanya Degurechaff is a young soldier infamous for predatorial-like ruthlessness and an uncanny, tactical aptitude, earning her the nickname of the Devil of the Rhine. Underneath her innocuous appearance, however, lies the soul of a man who challenged Being X, the self-proclaimed God, to a battle of wits—which resulted in him being reincarnated as a little girl into a world of magical warfare. Hellbent on defiance, Tanya resolves to ascend the ranks of her country's military as it slowly plunges into world war, with only Being X proving to be the strongest obstacle in recreating the peaceful life she once knew. But her perceptive actions and combat initiative have an unintended side effect: propelling the mighty Empire into becoming one of the most powerful nations in mankind's history.",
+        "num_of_episodes": 12,
+        
+        "image": "static/media/",
+        "type": 2,
+        "featured": 
+    },
+    {
+        "title": "",
+        "id": 04,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    },
+    {
+        "title": "",
+        "id": 05,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    },
+    {
+        "title": "",
+        "id": 06,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    },
+    {
+        "title": "",
+        "id": 07,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    },
+    {
+        "title": "",
+        "id": 08,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    },
+    {
+        "title": "",
+        "id": 09,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    },
+    {
+        "title": "",
+        "id": 10,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    },
+    {
+        "title": "",
+        "id": 11,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    },
+    {
+        "title": "",
+        "id": 12,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    },
+    {
+        "title": "",
+        "id": 13,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    }
+    {
+        "title": "",
+        "id": 14,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    },
+    {
+        "title": "",
+        "id": 15,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    },
+    {
+        "title": "",
+        "id": 16,
+        "studio": "",
+        "description": "",
+        "num_of_episodes": ,
+        
+        "image": "static/media/",
+        "type": ,
+        "featured": 
+    }
+]
